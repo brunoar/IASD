@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239e60c9-5681-490c-9a88-f430b92ffbe3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aimapython" beforeDir="false" afterPath="$PROJECT_DIR$/aimapython" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aimapython/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/aimapython/search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asarproblem.py" beforeDir="false" afterPath="$PROJECT_DIR$/asarproblem.py" afterDir="false" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/aimapython" />
   </component>
   <component name="ProjectId" id="1SSjJ4f8LgNMGOzwJgPZMJHYSHf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
