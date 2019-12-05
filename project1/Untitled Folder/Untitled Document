@@ -1,0 +1,1069 @@
+  ((0, 0), (((), ()), ((), ()))) | [(), ()] | [(), ()]
+  heuristica 0.06166666666666666
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [360]
+Legs Done =  [1]
+profi:  80 leg  1 plane a330 
+
+T =  [435]
+Legs Done =  [2]
+profi:  20 leg  2 plane a330 
+
+T =  [480]
+Legs Done =  [3]
+profi:  20 leg  3 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [360]
+Legs Done =  [0]
+profi:  100 leg  0 plane a320 
+
+T =  [360]
+Legs Done =  [1]
+profi:  100 leg  1 plane a320 
+
+T =  [435]
+Legs Done =  [2]
+profi:  80 leg  2 plane a320 
+
+T =  [480]
+Legs Done =  [3]
+profi:  80 leg  3 plane a320 
+
+T =  [375]
+Legs Done =  [4]
+profi:  90 leg  4 plane a320 
+
+T =  [480]
+Legs Done =  [5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.051666666666666666
+  heuristica 0.051666666666666666
+  heuristica 0.049166666666666664
+  heuristica 0.049166666666666664
+  heuristica 0.05333333333333333
+  heuristica 0.05333333333333333
+  heuristica 0.051666666666666666
+  heuristica 0.051666666666666666
+  heuristica 0.049166666666666664
+  heuristica 0.049166666666666664
+  heuristica 0.05333333333333333
+  heuristica 0.05333333333333333
+ matched  LPPT LPPT 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [360]
+Legs Done =  [0]
+profi:  100 leg  0 plane a320 
+
+T =  [360]
+Legs Done =  [1]
+profi:  100 leg  1 plane a320 
+
+T =  [435]
+Legs Done =  [2]
+profi:  80 leg  2 plane a320 
+
+T =  [480]
+Legs Done =  [3]
+profi:  80 leg  3 plane a320 
+
+T =  [375]
+Legs Done =  [4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.043333333333333335
+  heuristica 0.04083333333333333
+  heuristica 0.045
+  heuristica 0.043333333333333335
+  heuristica 0.043333333333333335
+  heuristica 0.04083333333333333
+  heuristica 0.04083333333333333
+  heuristica 0.045
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 3]
+profi:  20 leg  3 plane a330 
+
+T =  [360]
+Legs Done =  [0]
+profi:  100 leg  0 plane a320 
+
+T =  [360]
+Legs Done =  [1]
+profi:  100 leg  1 plane a320 
+
+T =  [435]
+Legs Done =  [2]
+profi:  80 leg  2 plane a320 
+
+T =  [480]
+Legs Done =  [3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.035
+  heuristica 0.0325
+  heuristica 0.035
+  heuristica 0.035
+  heuristica 0.0325
+  heuristica 0.0325
+T =  [375, 560]
+Legs Done =  [4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [375, 560]
+Legs Done =  [4, 3]
+profi:  20 leg  3 plane a330 
+
+T =  [360]
+Legs Done =  [0]
+profi:  100 leg  0 plane a320 
+
+T =  [360]
+Legs Done =  [1]
+profi:  100 leg  1 plane a320 
+
+T =  [435]
+Legs Done =  [2]
+profi:  80 leg  2 plane a320 
+
+T =  [480]
+Legs Done =  [3]
+profi:  80 leg  3 plane a320 
+
+T =  [480]
+Legs Done =  [5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.043333333333333335
+  heuristica 0.04083333333333333
+  heuristica 0.043333333333333335
+  heuristica 0.043333333333333335
+  heuristica 0.04083333333333333
+  heuristica 0.04083333333333333
+  heuristica 0.045
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [360]
+Legs Done =  [1]
+profi:  80 leg  1 plane a330 
+
+T =  [435]
+Legs Done =  [2]
+profi:  20 leg  2 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [480, 570]
+Legs Done =  [3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [480, 570]
+Legs Done =  [3, 2]
+profi:  80 leg  2 plane a320 
+
+T =  [480, 570]
+Legs Done =  [3, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.03916666666666666
+  heuristica 0.03916666666666666
+  heuristica 0.03666666666666667
+  heuristica 0.04083333333333333
+  heuristica 0.04083333333333333
+  heuristica 0.03916666666666666
+  heuristica 0.03666666666666667
+  heuristica 0.04083333333333333
+ matched  LPFR LPFR 
+
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [360]
+Legs Done =  [1]
+profi:  80 leg  1 plane a330 
+
+T =  [480]
+Legs Done =  [3]
+profi:  20 leg  3 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [435, 525]
+Legs Done =  [2, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [435, 525]
+Legs Done =  [2, 3]
+profi:  80 leg  3 plane a320 
+
+T =  [435, 525]
+Legs Done =  [2, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.03916666666666666
+  heuristica 0.03916666666666666
+  heuristica 0.03666666666666667
+  heuristica 0.04083333333333333
+  heuristica 0.04083333333333333
+  heuristica 0.03916666666666666
+  heuristica 0.03666666666666667
+  heuristica 0.04083333333333333
+ matched  LPPT LPPT 
+
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [480]
+Legs Done =  [3]
+profi:  20 leg  3 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [435, 525, 625]
+Legs Done =  [2, 1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [435, 525, 625]
+Legs Done =  [2, 1, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.029166666666666667
+  heuristica 0.026666666666666665
+  heuristica 0.03083333333333333
+  heuristica 0.03083333333333333
+  heuristica 0.029166666666666667
+  heuristica 0.03083333333333333
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [435, 525, 625]
+Legs Done =  [2, 1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [435, 525, 625]
+Legs Done =  [2, 1, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.020833333333333336
+  heuristica 0.0225
+  heuristica 0.020833333333333336
+  heuristica 0.0225
+ matched  LPPT LPPT 
+
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 3]
+profi:  20 leg  3 plane a330 
+
+T =  [435, 525, 625]
+Legs Done =  [2, 1, 0]
+profi:  100 leg  0 plane a320 
+
+  heuristica 0.01
+  heuristica 0.0125
+T =  [375, 560]
+Legs Done =  [4, 3]
+profi:  20 leg  3 plane a330 
+
+T =  [435, 525, 625]
+Legs Done =  [2, 1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [435, 525, 625]
+Legs Done =  [2, 1, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.020833333333333336
+  heuristica 0.0225
+ matched  LPPR LPPR 
+
+T =  [360]
+Legs Done =  [1]
+profi:  80 leg  1 plane a330 
+
+T =  [435]
+Legs Done =  [2]
+profi:  20 leg  2 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [480, 570, 670]
+Legs Done =  [3, 0, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [480, 570, 670]
+Legs Done =  [3, 0, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.029166666666666667
+  heuristica 0.026666666666666665
+  heuristica 0.03083333333333333
+  heuristica 0.03083333333333333
+  heuristica 0.029166666666666667
+  heuristica 0.03083333333333333
+ matched  LPPT LPPT 
+
+ matched  LPPR LPPR 
+
+T =  [480, 665]
+Legs Done =  [5, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [480, 570, 670]
+Legs Done =  [3, 0, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [480, 570, 670]
+Legs Done =  [3, 0, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.0225
+  heuristica 0.020833333333333336
+  heuristica 0.0225
+ matched  LPPR LPPR 
+
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [480, 570, 670]
+Legs Done =  [3, 0, 1]
+profi:  100 leg  1 plane a320 
+
+  heuristica 0.01
+  heuristica 0.0125
+T =  [375, 560]
+Legs Done =  [4, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [480, 570, 670]
+Legs Done =  [3, 0, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [480, 570, 670]
+Legs Done =  [3, 0, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.020833333333333336
+  heuristica 0.0225
+T =  [480, 570, 670, 770]
+Legs Done =  [3, 0, 1, 2]
+profi:  80 leg  2 plane a320 
+
+  heuristica 0
+ number of planes:  2
+ initial and final leg:  5 4
+T =  [435, 525, 625, 725]
+Legs Done =  [2, 1, 0, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0
+ number of planes:  2
+ initial and final leg:  5 4
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [480, 570]
+Legs Done =  [3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [480, 570]
+Legs Done =  [3, 2]
+profi:  80 leg  2 plane a320 
+
+  heuristica 0.0225
+  heuristica 0.02
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [480, 570]
+Legs Done =  [3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [480, 570]
+Legs Done =  [3, 2]
+profi:  80 leg  2 plane a320 
+
+T =  [480, 570]
+Legs Done =  [3, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.03083333333333333
+  heuristica 0.028333333333333335
+  heuristica 0.028333333333333335
+  heuristica 0.0325
+ matched  LPPT LPPT 
+
+T =  [375, 560]
+Legs Done =  [4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [375, 560]
+Legs Done =  [4, 5]
+profi:  120 leg  5 plane a330 
+
+T =  [480, 570]
+Legs Done =  [3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [480, 570]
+Legs Done =  [3, 2]
+profi:  80 leg  2 plane a320 
+
+  heuristica 0.03083333333333333
+  heuristica 0.0325
+  heuristica 0.028333333333333335
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [480, 570]
+Legs Done =  [3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [480, 570]
+Legs Done =  [3, 2]
+profi:  80 leg  2 plane a320 
+
+  heuristica 0.0225
+  heuristica 0.02
+  heuristica 0.0225
+  heuristica 0.02
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [435, 525]
+Legs Done =  [2, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [435, 525]
+Legs Done =  [2, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.0225
+  heuristica 0.0225
+  heuristica 0.02
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+ matched  LPFR LPFR 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 3]
+profi:  20 leg  3 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [435, 525]
+Legs Done =  [2, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [435, 525]
+Legs Done =  [2, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.03083333333333333
+  heuristica 0.028333333333333335
+  heuristica 0.028333333333333335
+ matched  LPFR LPFR 
+
+T =  [375, 560]
+Legs Done =  [4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [375, 560]
+Legs Done =  [4, 5]
+profi:  120 leg  5 plane a330 
+
+T =  [435, 525]
+Legs Done =  [2, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [435, 525]
+Legs Done =  [2, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.03083333333333333
+  heuristica 0.0325
+  heuristica 0.028333333333333335
+ matched  LPPT LPPT 
+
+ matched  LPFR LPFR 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 3]
+profi:  20 leg  3 plane a330 
+
+T =  [435, 525]
+Legs Done =  [2, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [435, 525]
+Legs Done =  [2, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.0225
+  heuristica 0.02
+  heuristica 0.0225
+  heuristica 0.02
+ matched  LPPT LPPT 
+
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [360]
+Legs Done =  [1]
+profi:  80 leg  1 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [435, 525, 615]
+Legs Done =  [2, 3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [435, 525, 615]
+Legs Done =  [2, 3, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.026666666666666665
+  heuristica 0.026666666666666665
+  heuristica 0.028333333333333335
+  heuristica 0.028333333333333335
+  heuristica 0.026666666666666665
+  heuristica 0.028333333333333335
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [435, 525, 615]
+Legs Done =  [2, 3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [435, 525, 615]
+Legs Done =  [2, 3, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.02
+  heuristica 0.018333333333333333
+  heuristica 0.02
+ matched  LPPT LPPT 
+
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [435, 525, 615]
+Legs Done =  [2, 3, 0]
+profi:  100 leg  0 plane a320 
+
+  heuristica 0.01
+  heuristica 0.01
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [360]
+Legs Done =  [1]
+profi:  80 leg  1 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [480, 570, 660]
+Legs Done =  [3, 2, 1]
+profi:  100 leg  1 plane a320 
+
+T =  [480, 570, 660]
+Legs Done =  [3, 2, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.026666666666666665
+  heuristica 0.026666666666666665
+  heuristica 0.028333333333333335
+  heuristica 0.028333333333333335
+  heuristica 0.026666666666666665
+  heuristica 0.028333333333333335
+ matched  LPPT LPPT 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [480, 570, 660]
+Legs Done =  [3, 2, 1]
+profi:  100 leg  1 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.02
+  heuristica 0.018333333333333333
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [480, 570, 660]
+Legs Done =  [3, 2, 1]
+profi:  100 leg  1 plane a320 
+
+  heuristica 0.01
+  heuristica 0.01
+T =  [480, 570, 660, 760]
+Legs Done =  [3, 2, 1, 0]
+profi:  100 leg  0 plane a320 
+
+  heuristica 0
+ number of planes:  2
+ initial and final leg:  5 4
+T =  [375, 560]
+Legs Done =  [4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [435, 525, 615]
+Legs Done =  [2, 3, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [435, 525, 615]
+Legs Done =  [2, 3, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.018333333333333333
+  heuristica 0.02
+T =  [375, 560]
+Legs Done =  [4, 1]
+profi:  80 leg  1 plane a330 
+
+T =  [480, 570, 660]
+Legs Done =  [3, 2, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [480, 570, 660]
+Legs Done =  [3, 2, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.018333333333333333
+  heuristica 0.02
+ matched  LPPT LPPT 
+
+T =  [480, 665, 850]
+Legs Done =  [5, 4, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [360, 460]
+Legs Done =  [1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [360, 460]
+Legs Done =  [1, 2]
+profi:  80 leg  2 plane a320 
+
+  heuristica 0.0225
+  heuristica 0.025
+  heuristica 0.0225
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [360, 460]
+Legs Done =  [1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [360, 460]
+Legs Done =  [1, 2]
+profi:  80 leg  2 plane a320 
+
+T =  [360, 460]
+Legs Done =  [1, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.03333333333333333
+  heuristica 0.03083333333333333
+  heuristica 0.03333333333333333
+  heuristica 0.03083333333333333
+  heuristica 0.035
+ matched  LPPT LPPT 
+
+T =  [480, 665]
+Legs Done =  [5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [480, 665]
+Legs Done =  [5, 4]
+profi:  120 leg  4 plane a330 
+
+T =  [360, 460, 550]
+Legs Done =  [1, 2, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.020833333333333336
+  heuristica 0.0225
+  heuristica 0.018333333333333333
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [435]
+Legs Done =  [2]
+profi:  20 leg  2 plane a330 
+
+T =  [480]
+Legs Done =  [3]
+profi:  20 leg  3 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [360, 460]
+Legs Done =  [1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [360, 460]
+Legs Done =  [1, 2]
+profi:  80 leg  2 plane a320 
+
+T =  [360, 460]
+Legs Done =  [1, 4]
+profi:  90 leg  4 plane a320 
+
+  heuristica 0.041666666666666664
+  heuristica 0.03916666666666666
+  heuristica 0.03916666666666666
+  heuristica 0.043333333333333335
+  heuristica 0.041666666666666664
+  heuristica 0.03916666666666666
+  heuristica 0.043333333333333335
+T =  [360]
+Legs Done =  [0]
+profi:  80 leg  0 plane a330 
+
+T =  [480]
+Legs Done =  [3]
+profi:  20 leg  3 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [360, 460, 550]
+Legs Done =  [1, 2, 3]
+profi:  80 leg  3 plane a320 
+
+T =  [360, 460, 550]
+Legs Done =  [1, 2, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.029166666666666667
+  heuristica 0.026666666666666665
+  heuristica 0.03083333333333333
+  heuristica 0.026666666666666665
+  heuristica 0.03083333333333333
+ matched  LPFR LPFR 
+
+T =  [375, 560]
+Legs Done =  [4, 3]
+profi:  20 leg  3 plane a330 
+
+T =  [360, 460, 550]
+Legs Done =  [1, 2, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [360, 460, 550]
+Legs Done =  [1, 2, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.018333333333333333
+  heuristica 0.020833333333333336
+  heuristica 0.018333333333333333
+T =  [435]
+Legs Done =  [2]
+profi:  20 leg  2 plane a330 
+
+T =  [480]
+Legs Done =  [3]
+profi:  20 leg  3 plane a330 
+
+T =  [375]
+Legs Done =  [4]
+profi:  120 leg  4 plane a330 
+
+T =  [480]
+Legs Done =  [5]
+profi:  120 leg  5 plane a330 
+
+T =  [360, 460, 560]
+Legs Done =  [1, 0, 3]
+profi:  80 leg  3 plane a320 
+
+T =  [360, 460, 560]
+Legs Done =  [1, 0, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.029166666666666667
+  heuristica 0.029166666666666667
+  heuristica 0.03333333333333333
+  heuristica 0.03333333333333333
+  heuristica 0.029166666666666667
+  heuristica 0.03333333333333333
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [375, 560]
+Legs Done =  [4, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [375, 560]
+Legs Done =  [4, 5]
+profi:  120 leg  5 plane a330 
+
+T =  [360, 460]
+Legs Done =  [1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [360, 460]
+Legs Done =  [1, 2]
+profi:  80 leg  2 plane a320 
+
+T =  [360, 480]
+Legs Done =  [1, 5]
+profi:  90 leg  5 plane a320 
+
+  heuristica 0.03083333333333333
+  heuristica 0.035
+  heuristica 0.03333333333333333
+  heuristica 0.035
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 2]
+profi:  20 leg  2 plane a330 
+
+T =  [360, 460]
+Legs Done =  [1, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [360, 460]
+Legs Done =  [1, 2]
+profi:  80 leg  2 plane a320 
+
+  heuristica 0.025
+  heuristica 0.0225
+  heuristica 0.025
+  heuristica 0.0225
+ matched  LPPT LPPT 
+
+ matched  LPFR LPFR 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [360, 460, 550]
+Legs Done =  [1, 2, 0]
+profi:  100 leg  0 plane a320 
+
+T =  [360, 460, 550]
+Legs Done =  [1, 2, 3]
+profi:  80 leg  3 plane a320 
+
+  heuristica 0.0125
+  heuristica 0.0125
+  heuristica 0.01
+ matched  LPPT LPPT 
+
+ matched  LPPT LPPT 
+
+T =  [375, 560, 745]
+Legs Done =  [4, 5, 0]
+profi:  80 leg  0 plane a330 
+
+T =  [360, 460, 550, 640]
+Legs Done =  [1, 2, 3, 0]
+profi:  100 leg  0 plane a320 
+
+  heuristica 0
+  heuristica 0
+ number of planes:  2
+ initial and final leg:  4 5
+ initial and final leg:  1 0
+Legs DOne =  [[4, 5], [1, 2, 3, 0]]
+Leg =  4
+Leg =  5
+Legs DOne =  [[4, 5], [1, 2, 3, 0]]
+Leg =  1
+Leg =  2
+Leg =  3
+

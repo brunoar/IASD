@@ -91,7 +91,7 @@ class ASARProblem(Problem):
     def actions(self, state):
         # possible actions consist of applying a leg to a given plane
         possible_actions = [[p, l] for p in range(len(self.planes)) for l in state[0]]
-        #print(possible_actions)
+
         for action in possible_actions:
             # pode-se otimizar fazendo pre-processamento
             p = action[0]
@@ -131,14 +131,15 @@ class ASARProblem(Problem):
             if state[1][1][p] + self.legs[action[1]].get_dur() > self.airports[apt][1]:
                 possible_actions.remove(action)
                 continue
-        print(possible_actions)
+
         return possible_actions
 
     def result(self, state, action):
         print("Current state: ", state)
         #print(self.airClasses)
         #new_state = [list(state[0]), [list(state[1][0]), list(state[1][1]), [list(state[1][2][i]) for i in range(len(state[1][2]))]]]
-        new_state = [list(state[0]), [list(state[1][0]), list(state[1][1]), [list(state[1][2][0]), list(state[1][2][1]), list(state[1][2][2]) ]]]
+        new_state = [list(state[0]), [list(state[1][0]), list(state[1][1]), [list(state[1][2][0]), list(state[1][2][1])]]]
+        print("New state: ", new_state)
 
         new_state[0].remove(action[1])
         p = action[0]
@@ -161,9 +162,8 @@ class ASARProblem(Problem):
         #planes_info = tuple(new_state[1][0]), tuple(new_state[1][1]), (tuple(new_state[1][2][0]), tuple(new_state[1][2][1]), tuple(new_state[1][2][2]))
         #next_state = (tuple(new_state[0]), planes_info)
         #print("Next state: ", next_state)
-        nex_state = (tuple(new_state[0]), (tuple(new_state[1][0]), tuple(new_state[1][1]), (tuple(new_state[1][2][0]),tuple(new_state[1][2][1]), tuple(new_state[1][2][2]))) )
-        print("Next State: ", nex_state)
-        return nex_state
+        return (tuple(new_state[0]), (tuple(new_state[1][0]), tuple(new_state[1][1]), (tuple(new_state[1][2][0]),tuple(new_state[1][2][1]))) )
+
 
     def goal_test(self, state):
         #percorreu todas as legs?
@@ -200,7 +200,6 @@ class ASARProblem(Problem):
 
         for leg in node.state[0]:
             h = h + 1 / self.legs[leg].get_max_profit()
-
             #print(leg, self.legs[leg].get_max_profit())
 
         """for leg in state_list[0]:

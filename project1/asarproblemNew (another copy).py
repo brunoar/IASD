@@ -91,22 +91,26 @@ class ASARProblem(Problem):
     def actions(self, state):
         # possible actions consist of applying a leg to a given plane
         possible_actions = [[p, l] for p in range(len(self.planes)) for l in state[0]]
-        #print(possible_actions)
+
+        state_list = [list(state[0]), [list(state[1][0]), list(state[1][1]), [list(state[1][2][i]) for i in range(len(state[1][2]))]]]
+
         for action in possible_actions:
             # pode-se otimizar fazendo pre-processamento
             p = action[0]
             l = action[1]
-            s = len(state[1][LEGS][p])
+            s = len(state_list[1][LEGS][p])
 
             if s == 0:
                 pass
             # tem de começar onde o avião está
             else:
-                last_leg = int(state[1][LEGS][p][s-1])
+                last_leg = int(state_list[1][LEGS][p][s-1])
+                #print("   last leg: ", last_leg, "\n")
                 if self.legs[last_leg].get_arr_airport() != self.legs[l].get_dep_airport():
                     possible_actions.remove(action)
                     continue
-
+            #if s!= 0:
+            #    print(" matched ", self.legs[last_leg].get_arr_airport(), self.legs[l].get_dep_airport(), "\n")
             # parte a uma hora em que o departure airport já abriu
             """apt = self.legs[action[1]].get_dep_airport()
             if self.planes[action[0]].get_time() < self.airports[apt][0]:
@@ -121,8 +125,8 @@ class ASARProblem(Problem):
             """
             # parte a uma hora em que o departure airport ainda não fechou
             apt = self.legs[action[1]].get_dep_airport()
-
-            if state[1][TIME][p] > self.airports[apt][1]:
+            #print(self.airports[apt])
+            if state_list[1][TIME][p] > self.airports[apt][1]:
                 possible_actions.remove(action)
                 continue
 
@@ -131,15 +135,12 @@ class ASARProblem(Problem):
             if state[1][1][p] + self.legs[action[1]].get_dur() > self.airports[apt][1]:
                 possible_actions.remove(action)
                 continue
-        print(possible_actions)
+
         return possible_actions
 
     def result(self, state, action):
-        print("Current state: ", state)
         #print(self.airClasses)
-        #new_state = [list(state[0]), [list(state[1][0]), list(state[1][1]), [list(state[1][2][i]) for i in range(len(state[1][2]))]]]
-        new_state = [list(state[0]), [list(state[1][0]), list(state[1][1]), [list(state[1][2][0]), list(state[1][2][1]), list(state[1][2][2]) ]]]
-
+        new_state = [list(state[0]), [list(state[1][0]), list(state[1][1]), [list(state[1][2][i]) for i in range(len(state[1][2]))]]]
         new_state[0].remove(action[1])
         p = action[0]
         l = action[1]
@@ -153,17 +154,7 @@ class ASARProblem(Problem):
         new_state[1][TIME][p] = new_state[1][TIME][p] + self.airClasses[classe]
         new_state[1][LEGS][p].append(l)
 
-        #next_state = tuple(new_state[0]), (tuple(new_state[1][0]), tuple(new_state[1][1]), tuple(tuple(new_state[1][2][i]) for i in range(len(new_state[1][2])) ))
-        #needed_info = [[-1 for p in range(len(P))], [0 for p in range(len(P))], [() for i in range(len(P))]]
-        #initial = (tuple([l.get_id() for l in self.legs]), tuple(tuple(i) for i in needed_info))
-
-        #planes_info = tuple(new_state[1][0]), tuple(new_state[1][1]), tuple(tuple(i) for i in new_state[1][2])
-        #planes_info = tuple(new_state[1][0]), tuple(new_state[1][1]), (tuple(new_state[1][2][0]), tuple(new_state[1][2][1]), tuple(new_state[1][2][2]))
-        #next_state = (tuple(new_state[0]), planes_info)
-        #print("Next state: ", next_state)
-        nex_state = (tuple(new_state[0]), (tuple(new_state[1][0]), tuple(new_state[1][1]), (tuple(new_state[1][2][0]),tuple(new_state[1][2][1]), tuple(new_state[1][2][2]))) )
-        print("Next State: ", nex_state)
-        return nex_state
+        return tuple(new_state[0]), (tuple(new_state[1][0]), tuple(new_state[1][1]), (tuple(new_state[1][2][i]) for i in range(len(new_state[1][2])) ))
 
     def goal_test(self, state):
         #percorreu todas as legs?
@@ -200,8 +191,7 @@ class ASARProblem(Problem):
 
         for leg in node.state[0]:
             h = h + 1 / self.legs[leg].get_max_profit()
-
-            #print(leg, self.legs[leg].get_max_profit())
+            print(leg, self.legs[leg].get_max_profit())
 
         """for leg in state_list[0]:
             h = h + 1/self.legs[leg].get_max_profit()
