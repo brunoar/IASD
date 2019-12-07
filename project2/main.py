@@ -8,24 +8,64 @@ import sys
 class Problem:
 
     def __init__(self, fh):
-        # Place here your code to load problem from opened file object fh
-        # and use probability.BayesNet() to create the Bayesian network
-
         lines = fh.readlines()
-        [R, C, S, P, M] = process(lines)
+        [self.R, self.C, self.S, self.P, self.M] = process(lines)
+        """"print(self.R)
+        print(self.C)
+        print(self.S)
+        print(self.P)
+        print(self.M)"""""
+        parentsR = []
+        parentsS = []
+        for room in self.R:                         # dictionary that associates each room with it adjacent rooms
+            parents = []
+            for edge in self.C:
+                if edge[0] == room:
+                    parents.append(edge[1])           # confirm that this isn't a problem
+                elif edge[1] == room:
+                    parents.append(edge[0])
+            parentsR.append(parents)
+            parents = []
+            for sensor in self.S:
+                if sensor[1] == room:               # allows more than one sensor per room
+                    parents.append(sensor[0])
+            parentsS.append(parents)
+        self.adjDict = {self.R[i]: parentsR[i] for i in range(len(self.R))}
+        self.sensDict = {self.R[i]: parentsS[i] for i in range(len(self.R))}
+        self.prob = {r : 0.5 for r in self.R}
+        print(self.adjDict)
+        print(self.sensDict)
 
-        print(R)
-        print(C)
-        print(S)
-        print(P)
-        print(M)
-                
     def solve(self):
-        # Place here your code to determine the maximum likelihood solution
-        # returning the solution room name and likelihood
-        # use probability.elimination_ask() to perform probabilistic inference
-        #return (room, likelihood)
-        pass
+        # sample time 0
+        node_specs = []
+        i = 0
+        for room in self.R:
+            print(room)
+            X = room + str(i)
+            node_specs.append((X, '', 0.5))
+
+        #as many sample times as given in the file
+        for sample in self.M:
+            i = i + 1
+            node_specs = []
+            cpt = {}
+            for room in self.R:
+                parents = ''
+                X = room + str(i)
+                for p in self.adjDict[room]:
+                    parents = parents + ' ' + p + str(i-1)
+                    #place probability cpt
+                for s in self.sensDict[room]:
+                    parents = parents + ' ' + s + str(i)
+                    #place probability cpt
+                node_specs.append((X, parents, cpt))
+        """"net = BayesNet(node_specs) 
+        a = self.R[1]+'0'
+        b = {self.R[0]+'0':True}
+        p = elimination_ask(a, b, net).show_approx()
+        print(p)"""""
+        # return (room, likelihood)
 
 
 def process(lines):
@@ -77,8 +117,8 @@ def process(lines):
                     sampling.append(aux)
                 M.append(sampling)
 
-    return [R, C, S, P, M]
-
+    #return [R[0], C[0], S[0], P[0], M[0]]                   # melhorar isto
+    return [R[0], C, S, P, M]
 
 def main():
 
