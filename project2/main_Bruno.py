@@ -45,6 +45,7 @@ class Problem:
             X = room + str(i)
             node_specs.append((X, '', 0.5))
 
+        T,F = True, False
         #as many sample times as given in the file
         for sample in self.M:
             i = i + 1
@@ -56,6 +57,7 @@ class Problem:
                 for p in self.adjDict[room]:
                     parents = parents + ' ' + p + str(i-1)
                     #place probability cpt
+                    
                 for s in self.sensDict[room]:
                     parents = parents + ' ' + s + str(i)
                     #place probability cpt
